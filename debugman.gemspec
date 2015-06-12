@@ -5,12 +5,12 @@ require 'debugman/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "debugman"
-  spec.version       = Debugman::VERSION
+  spec.version       = "0.0.1"
   spec.authors       = ["Mikeva"]
   spec.email         = ["eva091960601@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "Debugman!"
+  spec.description   = "Tool for debug or any good for coding"
+  spec.homepage      = "https://github.com/eva0919/debugman"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", '~> 0'
 end
